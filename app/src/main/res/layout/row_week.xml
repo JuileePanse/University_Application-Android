@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:visibility="visible"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Week_No"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:padding="20dp"
+            android:text=""
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <RelativeLayout
+            android:id="@+id/expandebal_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Activity :"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="activity"
+                android:textSize="15sp"
+                android:layout_toRightOf="@id/activity_txt"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <TextView
+                android:id="@+id/handout_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Handout :"
+                android:textIsSelectable="true"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_baseline_event_note_24"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/handout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity"
+                android:layout_toRightOf="@id/handout_txt"
+                android:padding="10dp"
+                android:text="handout"
+                android:textIsSelectable="true"
+                android:clickable="true"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="@font/proximanovaregular" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

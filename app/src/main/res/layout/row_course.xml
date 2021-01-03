@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:visibility="visible"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Course_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:padding="20dp"
+            android:text="Course Name"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/expandebal_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Instructor_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Instructor Name:"
+                android:drawableLeft="@drawable/person"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView
+                android:id="@+id/Instructor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Instructor_name_txt"
+                android:padding="10dp"
+                android:text="ABC"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <TextView
+                android:id="@+id/Course_credit_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Instructor_name_txt"
+                android:padding="10dp"
+                android:text="Course Credit :"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <TextView
+                android:id="@+id/Course_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Instructor_name"
+                android:layout_toRightOf="@id/Course_credit_txt"
+                android:padding="10dp"
+                android:text="3.0"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:id="@+id/time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Instructor_name_txt"
+                android:layout_toLeftOf="@id/time"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/time"
+                android:text="Time:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Instructor_name_txt"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:text="09.00AM"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <TextView
+                android:id="@+id/meeting_links"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time"
+                android:padding="10dp"
+                android:text="Meeting Links"
+                android:textSize="15sp"
+                android:textColor="@color/goodgrey"
+                android:fontFamily="sans-serif-light"
+                 />
+
+            <Button
+                android:id="@+id/week_button"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meeting_links"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:text="Week"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

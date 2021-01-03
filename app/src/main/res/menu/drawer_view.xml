@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:iconTint="@color/colorPrimary"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_class_schedule"
+            android:icon="@drawable/schedule"
+            android:iconTint="@color/colorPrimary"
+            android:title="Class Schedule" />
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/grades"
+            android:iconTint="@color/colorPrimary"
+            android:title="Grades" />
+        <item
+            android:id="@+id/nav_meeting_links"
+            android:icon="@drawable/schedule"
+            android:iconTint="@color/colorPrimary"
+            android:title="Calender" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_student_profile"
+                    android:icon="@drawable/student_profile"
+                    android:iconTint="@color/colorPrimary"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/settings"
+                    android:iconTint="@color/colorPrimary"
+                    android:title="Settings" />
+            </group>
+        </menu>
+    </item>
+</menu>

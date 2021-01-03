@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dip"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dip">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tlGridTable" >
+
+
+                <TableRow android:layout_weight="1">
+
+                    <TextView android:id="@+id/Course_name"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:text="course Name"/>
+
+                    <TextView android:id="@+id/Course_credit"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:text="course credit"/>
+                    <TextView android:id="@+id/Grade"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:text="Grade"/>
+
+                    <TextView android:id="@+id/GPA"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:text="GPA"/>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

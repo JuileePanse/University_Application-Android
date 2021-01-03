@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "814005946435",
+    "firebase_url": "https://resetpassword-1e535.firebaseio.com",
+    "project_id": "resetpassword-1e535",
+    "storage_bucket": "resetpassword-1e535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814005946435:android:2b89deac363615070eecf6",
+        "android_client_info": {
+          "package_name": "com.koddev.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814005946435-89pa92ls00fq2tu0t6o5690tbjbjhlu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGKa8IlR1w6lvo4G_b04f6hakBQEas5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814005946435-89pa92ls00fq2tu0t6o5690tbjbjhlu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814005946435:android:232c9ac04cbd718a0eecf6",
+        "android_client_info": {
+          "package_name": "com.npu_app.npu_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814005946435-89pa92ls00fq2tu0t6o5690tbjbjhlu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGKa8IlR1w6lvo4G_b04f6hakBQEas5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814005946435-89pa92ls00fq2tu0t6o5690tbjbjhlu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

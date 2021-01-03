@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+   <!-- <ImageView
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/slider2"
+        android:scaleType="centerCrop"/>-->
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_below="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="165dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        />
+
+</RelativeLayout>
