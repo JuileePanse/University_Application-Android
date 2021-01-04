@@ -22,7 +22,5 @@ To use this project you need to create firebase project, download google-service
 
 # Screenshots
 ![ScreenShot](https://github.com/JuileePanse/University_Application/blob/master/Screenshot_20201222-105501_NPU.jpg)
-![ScreenShot](https://github.com/JuileePanse/University_Application/blob/master/Screenshot_20201222-105510_NPU.jpg)
-![ScreenShot](https://github.com/JuileePanse/University_Application/blob/master/Screenshot_20201222-105523_NPU.jpg)
 ![ScreenShot](https://github.com/JuileePanse/University_Application/blob/master/Screenshot_20201222-105542_NPU.jpg)
 ![ScreenShot](https://github.com/JuileePanse/University_Application/blob/master/Screenshot_20201222-105548_NPU.jpg)
