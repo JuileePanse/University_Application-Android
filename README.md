@@ -3,7 +3,7 @@ An application for university which includes features like notifications, zoom a
 Easier for students to access their class schedule and notifications on mobile phone instead of web app
 
 # Features
-- Login with Encryption/Decryption(AES)
+- Login
 - Student Profile
 - Class Schedule
 - Notifications for Events/holidays/homework deadlines
